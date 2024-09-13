@@ -1,2 +1,5 @@
-# android-materials
-Offer common android ui components and resources
+###### Integration
+
+```kotlin
+    api("io.github.hellogoogle2000:android-commons-ui:+")
+```
