@@ -35,7 +35,7 @@ android {
 dependencies {
 
     // Commons Serial
-    api("io.github.hellogoogle2000:android-commons:1.0.3")
+    api("io.github.hellogoogle2000:android-commons:${property("VERSION_NAME")}")
 }
 
 signing {
