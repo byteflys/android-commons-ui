@@ -9,7 +9,7 @@ android {
 
     compileSdk = 34
     defaultConfig {
-        namespace = "io.github.hellogoogle2000.android.commons.ui"
+        namespace = "x.android.commons.ui"
         minSdk = 30
         targetSdk = 34
     }
@@ -35,7 +35,7 @@ android {
 dependencies {
 
     // Commons Serial
-    api("io.github.hellogoogle2000:android-commons:${property("VERSION_NAME")}")
+    implementation("io.github.hellogoogle2000:android-commons:1.0.15")
 }
 
 signing {
