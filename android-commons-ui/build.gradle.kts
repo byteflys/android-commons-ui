@@ -35,7 +35,7 @@ android {
 dependencies {
 
     // Commons Serial
-    implementation("io.github.hellogoogle2000:android-commons:1.0.15")
+    implementation("io.github.hellogoogle2000:android-commons:1.0.22")
 }
 
 signing {
